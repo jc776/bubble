@@ -1,0 +1,5 @@
+^{:watch-dirs ["src"]
+  :css-dirs ["resources/public/css"]}
+{:main bubble.dev
+ :npm-deps false
+ :infer-externs true}

@@ -1,0 +1,12 @@
+{:paths ["src" "resources" "target"]
+
+ :deps
+ {com.bhauman/figwheel-main {:mvn/version "0.2.4"}
+  com.bhauman/rebel-readline-cljs {:mvn/version "0.1.4"}
+  cljsjs/react {:mvn/version "16.13.0-0"}
+  cljsjs/react-dom {:mvn/version "16.13.0-0"}
+  lilactown/helix {:git/url "https://github.com/Lokeh/helix" :sha "807ce35fd33b6c94dcbc7fdfb9866f4c30d71254"}
+  org.clojure/tools.deps.alpha {:git/url "https://github.com/clojure/tools.deps.alpha"
+                                :sha "19d197ab221d37db750423eb970880cb87a91100"}
+  com.clojure-goes-fast/lazy-require {:mvn/version "0.1.1"}
+  cider/orchard {:mvn/version "0.5.7"}}}
